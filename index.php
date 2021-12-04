@@ -86,7 +86,6 @@ function buildDataFiles($boundary, $content, $fileName){
 
     $data .= "--" . $delimiter . $eol
         . 'Content-Disposition: form-data; name="file"; filename="' . $fileName . '"' . $eol
-        //. 'Content-Type: image/png'.$eol
         . 'Content-Transfer-Encoding: binary'.$eol
     ;
 
