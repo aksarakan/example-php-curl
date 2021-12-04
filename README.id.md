@@ -10,16 +10,13 @@ Dokumentasi teknis dapat dilihat di [aksarakan documentation][2].
 
 ## Kebutuhan
 - PHP >= 5
+- curl extension
 
 ## Installasi
 - Clone or unduh repository ini
 - sesuaikan variable
 - Jalankan menggunakan CLI atau web server
 
-### Menginstal Dependency
-```
-composer i
-```
 ### Sesuaikan variable
 Sesuaikan variable $path, $token, $type dalam index.php
 
